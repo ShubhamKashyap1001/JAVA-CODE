@@ -1,6 +1,6 @@
 //import java.util.ArrayList;
 
-public class FindDuplicate {
+class FindDuplicate {
     public static void main(String[] args) {
         //ArrayList<Integer> list = new ArrayList<>();
         int[] arr = {2,4,3,2,7};

@@ -1,6 +1,10 @@
-//package practiceProblem.problem4;
+package practiceProblem.problem4;//package practiceProblem.problem4;
 
 abstract class ThreeDObject {
+    abstract double surfaceArea(double l, double b, double h);
+
+    abstract double volume(double l, double b, double h);
+
     abstract double surfaceArea();
     abstract double volume();
 

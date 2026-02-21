@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SelectionSort {
+public class RecursionSelectionSort {
     public static void main(String[] args) {
         int[] arr = {2,5,3,1,8};
         selection(arr,arr.length,0,0);

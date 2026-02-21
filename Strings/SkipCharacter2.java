@@ -1,4 +1,4 @@
-public class SkipCharacter {
+public class SkipCharacter2 {
     public static void main(String[] args) {
         
         skip("" ,"baccabh");

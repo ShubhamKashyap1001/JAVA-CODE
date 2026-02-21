@@ -1,4 +1,4 @@
-public class FindDuplicate {
+public class FindDuplicates {
     public static void main(String[] args) {
         int[] arr = {3,2,1,4,3};
         System.out.println(duplicateElement(arr));

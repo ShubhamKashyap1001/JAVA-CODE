@@ -80,6 +80,42 @@ public class BinaryTree {
         prettyDisplay(node.left,level+1);
     }
 
+    //traversal
+    //preOrder
+
+    public void preOrder(Node node){
+        if(node == null){
+            return;
+        }
+        System.out.println(node.val+" ");
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+
+    //inOrder
+    public void inOrder(Node node){
+        if(node == null){
+            return;
+        }
+        preOrder(node.left);
+        System.out.println(node.val + " ");
+        preOrder(node.right);
+    }
+
+    public void postOrder(){
+        preOrder(root);
+    }
+
+    private void postOrder(Node node){
+        if(node == null){
+            return;
+        }
+
+        preOrder(node.left);
+        preOrder(node.right);
+        System.out.println(node.val+ " ");
+    }
+
 }
 
 
